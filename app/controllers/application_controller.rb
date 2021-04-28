@@ -4,4 +4,5 @@ class ApplicationController < ActionController::Base
     end
     def goobye
         render html: "goodbye, world!"
+    end
 end
